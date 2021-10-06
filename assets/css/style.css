@@ -491,7 +491,10 @@ section {
 .services {
   padding-bottom: 30px;
 }
+
 .services .icon-box {
+  /* width: 80px; */
+  /* height: 80px; */
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
@@ -501,6 +504,25 @@ section {
   border-radius: 8px;
   z-index: 1;
   text-align: center;
+}
+
+.container-fluid{
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.row{
+  /* display:flex; */
+  /* justify-content:space-between; */
+  margin-left: 10rem;
+  text-align: center;
+}
+
+.row> .card{
+  margin: 3rem;
 }
 .services .icon-box::before {
   content: "";
