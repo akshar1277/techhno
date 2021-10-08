@@ -525,7 +525,7 @@ section {
 
   .row>card{
     margin-right:5rem;
-    width:10rem;
+    width:15rem;
     height:10rem;
   }
 }
@@ -534,6 +534,7 @@ section {
 
   .row> .activities{
     margin-right:18rem;
+    width: 15rem;
   }
 
   .activity{
