@@ -11,6 +11,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
 }
 
 a {
@@ -434,6 +437,14 @@ section {
   }
 }
 
+
+
+.Achievements{
+  display: flex;
+  justify-content:space-between;
+  /* float: right; */
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -517,17 +528,42 @@ section {
 .row{
   /* display:flex; */
   /* justify-content:space-between; */
-  margin-left: 2rem;
+  margin-left: 8.6rem;
+
 }
 
 .row> .card{
   margin: 3rem;
 }
 
-@media screen and (min-width:150px) and (max-width:600px){
+@media screen and (min-width:150px) and (max-width:800px){
+
+
+  body{
+    overflow-x: hidden !important;
+  }
+
+  section{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .container{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .container-fluid{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
 
   .row{
     margin-right:6rem;
+   
+    /* width: 100vw;
+    height: 100vh; */
   }
 
   .row>card{
