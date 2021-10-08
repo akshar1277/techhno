@@ -1,19 +1,7 @@
-/**
-* Template Name: Tempo - v4.5.0
-* Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  width: 100vw;
-  height: 100vh;
-  /* overflow: hidden; */
 }
 
 a {
@@ -91,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
+
 * Desktop Navigation 
 */
 .navbar {
@@ -202,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/**
+
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
@@ -219,7 +207,8 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
   }
 
-  .navbar ul {
+
+.navbar ul {
     display: none;
   }
 }
@@ -402,6 +391,7 @@ section {
   background-color: white;
 }
 
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -435,14 +425,6 @@ section {
   .section-title p {
     width: 50%;
   }
-}
-
-
-
-.Achievements{
-  display: flex;
-  justify-content:space-between;
-  /* float: right; */
 }
 
 /*--------------------------------------------------------------
@@ -528,8 +510,7 @@ section {
 .row{
   /* display:flex; */
   /* justify-content:space-between; */
-  margin-left: 8.6rem;
-
+  margin-left: 4rem;
 }
 
 .row> .card{
@@ -538,51 +519,29 @@ section {
 
 @media screen and (min-width:150px) and (max-width:600px){
 
-
-
-
-  body{
-    overflow-x: hidden !important;
-  }
-
-  /* section{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-  } */
-
-  .container{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-  }
-
-  .container-fluid{
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-  }
-
-
   .row{
-    margin-right:6rem;
-   
-    /* width: 100vw;
-    height: 100vh; */
+    margin-right:8rem;
   }
 
-  .row>.card{
-    margin-left:5rem;
+  .row>card{
+    margin-right:5rem;
     width:10rem;
     height:10rem;
   }
 }
 
-@media screen and (min-width: 150px) and (max-width: 900px)
-{
-  .activities{
+@media screen and (min-width:150px) and (max-width:600px){
 
-    margin-left: 3rem;
+  .row> .activities{
+    margin-right:18rem;
   }
-}
 
+  .activity{
+    padding-right:75px;
+  }
+
+  
+}
 
 .services .icon-box::before {
   content: "";
@@ -629,9 +588,7 @@ section {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
+
 .features {
   padding-top: 20px;
 }
@@ -784,9 +741,7 @@ section {
   bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -939,9 +894,7 @@ section {
   border-radius: 50px;
 }
 
-/*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
+
 .faq {
   padding: 60px 0;
 }
@@ -1074,9 +1027,7 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1234,10 +1185,6 @@ section {
   color: #655356;
   content: "/";
 }
-
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
 }
@@ -1440,6 +1387,8 @@ section {
   color: #444444;
   transition: 0.3s;
 }
+
+
 .blog .blog-comments .comment h5 a:hover {
   color: #e43c5c;
 }
@@ -1639,7 +1588,7 @@ section {
   margin: 0 6px 8px 0;
   border: 1px solid #f6f4f4;
   display: inline-block;
-  transition: 0.3s;
+
 }
 .blog .sidebar .tags ul a:hover {
   color: #fff;
